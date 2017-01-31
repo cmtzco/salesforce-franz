@@ -1,0 +1,22 @@
+{
+  "name": "salesforce-franz",
+  "version": "1.0.0",
+  "description": "Franz plugin for Salesforce",
+  "main": "index.js",
+  "author": "Chris Martinez <chris@cmtz.co>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://dematic.my.salesforce.com",
+    "serviceName": "Salesforce",
+    "message": "Salesforce",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "customURL": false,
+    "hasTeamID": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
